@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HireFlow - Recruitment Management System
 
 HireFlow is a backend-based recruitment management system built using **Node.js, Express.js, and MongoDB**. It helps manage users, companies, job postings, and job applications through REST APIs.
@@ -119,3 +120,5 @@ http://localhost:1240
 | Jobs | `/api/jobs` |
 | Applications | `/api/applications` |
 | Admin | `/
+=======
+>>>>>>> a259168a4c639677aaf1c60b1d77ed37cf5ce3d3
