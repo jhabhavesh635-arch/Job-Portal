@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# HireFlow - Recruitment Management System
+# HireFlow (Job Portal)- Recruitment Management System
 
 HireFlow is a backend-based recruitment management system built using **Node.js, Express.js, and MongoDB**. It helps manage users, companies, job postings, and job applications through REST APIs.
 
@@ -17,7 +17,7 @@ HireFlow is a backend-based recruitment management system built using **Node.js,
 ## 📁 Project Structure
 
 ```text
-HireFlow/
+job portal/
 │
 ├── src/
 │   ├── config/
@@ -85,15 +85,7 @@ Create a `.env` file in the root directory and add:
 ```env
 PORT=1240
 MONGODB_URL=mongodb://127.0.0.1:27017/hireflow
-JWT_SECRET=your_jwt_secret
-REFRESH_TOKEN_SECRET=your_refresh_token_secret
 
-ADMIN_NAME=HireFlow Admin
-ADMIN_EMAIL=admin@example.com
-ADMIN_PASSWORD=your_admin_password
-```
-
-Use your own secret values and admin credentials. Never upload your actual `.env` file to GitHub.
 
 ### 5. Start MongoDB
 
